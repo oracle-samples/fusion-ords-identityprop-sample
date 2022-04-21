@@ -1,0 +1,13 @@
+*.whl
+.idea
+*.class
+*.jar
+*.exe
+*.zip
+__pycache__
+.terraform
+terraform.tfstate*
+.setServiceParams-ekww*
+test.py
+.scannerwork/
+*.swp

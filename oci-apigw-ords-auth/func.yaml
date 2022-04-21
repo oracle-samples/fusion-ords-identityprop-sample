@@ -1,0 +1,10 @@
+# Copyright (c)  2022,  Oracle and/or its affiliates.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+schema_version: 20180708
+name: oci-apigw-ords-auth
+version: 0.0.132
+runtime: python
+build_image: fnproject/python:3.8-dev
+run_image: fnproject/python:3.8
+entrypoint: /python/bin/fdk /function/func.py handler
+memory: 256

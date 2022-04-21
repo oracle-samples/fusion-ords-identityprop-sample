@@ -1,0 +1,12 @@
+# Copyright (c)  2022,  Oracle and/or its affiliates.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+{
+    "HOSTNAME" : "${apigw.hostname}",
+    "back_end_token_endpoint" : "https://<ORDS DB>.adb.us-phoenix-1.oraclecloudapps.com/ords/<ORDSOWNER>/oauth/token",
+    "back_end_client_secret_ocid" : "${back_end_client_secret_ocid}",
+    "back_end_app_client_id" : "<REPLACE WITH YOUR ORDS CLIENT ID>",
+    "idcs_app_client_secret_ocid" : "${idcs_app_client_secret_ocid}",
+    "idcs_app_client_id" : "<REPLACE WITH YOUR IDCS CLIENT ID>",
+    "idcs_introspection_endpoint" : "https://idcs-XXXXXX.identity.oraclecloud.com/oauth2/v1/introspect",
+    "fusion_hostname" : "<REPLACE WITH YOUR FUSION HOSTNAME, WITHOUT HTTPS>"
+}
