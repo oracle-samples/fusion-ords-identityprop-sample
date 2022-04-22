@@ -10,7 +10,7 @@ This is all good, but Oracle ATP, and Oracle APEX Service, support a technonolog
 
 This solution uses Oracle OCI Cloud Native components (Oracle API Gateway and Oracle Cloud Functions) and provides a serverless middletier which intercepts the calls to Oracle ATP and then injects the username (and Fusion Roles) as headers to the PLSQL/SQL function in ORDS.
 
-For more information on how the solution works please see the blog entry on A-Team chronicles ([link](https://www.ateam-oracle.com/post/identity-propagation-to-ords-for-a-vbcs-fusion-saas-extension))
+For more information on how the solution works please see the blog entry on A-Team chronicles ([link](https://www.ateam-oracle.com/post/identity-propagation-to-ords-for-a-vbcs-fusion-saas-extension)
 
 ![](docs/fusion-ords-identityprop-arch.jpg)
 
@@ -49,11 +49,11 @@ For more information Please see the A-Team Chronicles blog post
 
 ## Contributing
 
-This sample code is an open source project. See [CONTRIBUTING](https://github.com/oracle/cloud-asset-fusion-serverless-vbcs-sample/blob/master/CONTRIBUTING.md) for details. Oracle gratefully acknowledges the contributions to it that have been made by the community.
+This sample code is an open source project. See [CONTRIBUTING](CONTRIBUTING.md) for details. Oracle gratefully acknowledges the contributions to it that have been made by the community.
 
 ## Security
 
-For more information on security please see [SECURITY.md](https://github.com/oracle/cloud-asset-fusion-serverless-vbcs-sample/blob/master/SECURITY.md)
+For more information on security please see [SECURITY.md](SECURITY.md)
 
 ## Distribution
 
