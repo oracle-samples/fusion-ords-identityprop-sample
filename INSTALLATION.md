@@ -85,6 +85,7 @@
          e.g.
          urn:opc:resource:fa:instanceid=12345678urn:opc:resource:consumer::all
    3. Click Get Access Token and make sure you can successfully obtain an access token
+  
       ![image-20220420215952412](docs/image-20220420215952412.png)
 
 
