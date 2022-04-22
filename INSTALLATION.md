@@ -104,7 +104,7 @@ These instructions are for configuring ORDS, using the version of ORDS within AP
 2. Create a new ORDS Module called VBCS_ORDS_IDPROP with the path VBCS_ORDS_IDPROP
 
 3. Within this Module create a template called "test"
-   ![image-20220420220229262](C:\Temp\assets\sample.fusion-ords-identityprop\docs\image-20220420220229262ords_module.png)
+   ![image-20220420220229262](docs\image-20220420220229262ords_module.png)
 
    
 
