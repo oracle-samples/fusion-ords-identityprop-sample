@@ -65,10 +65,12 @@
 
    3. Resources, Web , User and Groups can be skipped
 
-   4. Ensure the application is **ACTIVATED
+   4. Ensure the application is **ACTIVATED**
+  
       ![image-20220420215653430](docs/image-20220420215653430.png)
 
    5. Take note of the Application **Client ID** and **Client Secret** we will need this later and will refer to this as IDCS Client ID and IDCS Client Secret
+  
       ![image-20220420215716583](docs/image-20220420215716583.png)
 
 3. Using "Postman" you can test this all working  using the following steps :
@@ -83,6 +85,7 @@
       6. Password :<Your IDCS Password>
       7. Scope : <Your Fusion Resource Scope> 
          e.g.
+  
          urn:opc:resource:fa:instanceid=12345678urn:opc:resource:consumer::all
    3. Click Get Access Token and make sure you can successfully obtain an access token
   
@@ -143,6 +146,7 @@ These instructions are for configuring ORDS, using the version of ORDS within AP
    1. Set Authentication to **"No Authentication"**
    2. Set Headers to some dummy data appropriately (i.e. X-AUTH-USERNAME and X-AUTH-FUSION-ROLES)
    3. When you execute this you should receive the username and roles as part of the response. 
+  
       ![image-20220420220446815](docs/image-20220420220446815.png)
 
 7. We now need to secure the REST API by using OAuth 2.0. ORDS only supports Client Credentials so we'll configure this, an alternative is to use Basic authentication from our middle tier but we decided to make this modern.
@@ -275,6 +279,7 @@ These instructions are for configuring ORDS, using the version of ORDS within AP
     1. Set the URL to the API Gateway endpoint + test URL
 
        1. You can find the API Gateway deployment endpoint by looking at the OCI Gateway configuration in Oracle OCI Console
+  
           ![image-20220420221234407](docs/image-20220420221234407.png)
 
     2. Set grant type to Client Credentials
