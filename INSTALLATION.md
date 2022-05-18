@@ -282,17 +282,17 @@ These instructions are for configuring ORDS, using the version of ORDS within AP
   
           ![image-20220420221234407](docs/image-20220420221234407.png)
 
-    2. Set grant type to Client Credentials
+    2. Set grant type to Password Credentials (needs to be password credentials so that we provide a username/password)
 
-    3. Set the access token URL to https://<your APEX service>/ords/<Username>/oauth/token
+    3. Set the access token URL to the IDCS token url , ie https://<your IDCS service>/oauth2/v1/token
 
-    4. Set Client ID and Client Secret to the Backend Client ID & Client Secret we obtained earlier
+    4. Set Client ID and Client Secret to the IDCS Client ID & Client Secret we obtained earlier
 
-    5. Get New access token, Use it then execute the query
-
-       ![img](https://confluence.oraclecorp.com/confluence/download/attachments/3569277524/image2022-3-11_15-35-45.png?version=1&modificationDate=1647012945000&api=v2)
-
-    6. You should receive a response with a JSON payload showing the Username and the Fusion Roles from Oracle
+    5. Set the username and password appropriately
+    6. Scope should be set to ```urn:opc:idm:__myscopes__```
+    7. Get New access token, Use it then execute the query
+  
+    8. You should receive a response with a JSON payload showing the Username and the Fusion Roles from Oracle
 
 ## Testing Using Oracle VBCS
 
