@@ -49,11 +49,18 @@ For more information Please see the A-Team Chronicles blog post
 
 ## Contributing
 
-This sample code is an open source project. See [CONTRIBUTING](CONTRIBUTING.md) for details. Oracle gratefully acknowledges the contributions to it that have been made by the community.
+This sample code is an open source project. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md). Oracle gratefully acknowledges the contributions to it that have been made by the community.
 
 ## Security
 
 For more information on security please see [SECURITY.md](SECURITY.md)
+
+## License
+
+Copyright (c) 2022 Oracle and/or its affiliates.
+
+Released under the Universal Permissive License v1.0 as shown at
+<https://oss.oracle.com/licenses/upl/>.
 
 ## Distribution
 
