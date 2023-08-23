@@ -70,4 +70,4 @@ Developers choosing to distribute a binary implementation of this project are re
 
 If you need help with this sample please log an issue and we'll try and help
 
-Copyright (c) 2022, Oracle and/or its affiliates. All rights reserved. Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+Copyright (c) 2022, 2023, Oracle and/or its affiliates. All rights reserved. Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
